@@ -3,7 +3,7 @@
 ## Index
 
 1. [Introduction](#Introduction)
-2. [Imversed Outline](#Imversed Outline)
+2. [Imversed Outline](#Imversed-Outline)
 3. [Blockchain for Users](#Blockchain for Users)
 4. [NFT Tokens as First-class Citizens](#NFT Tokens as First-class Citizens)
     1. NFT Denominations
