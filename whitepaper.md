@@ -4,11 +4,11 @@
 
 1. [Introduction](#Introduction)
 2. [Imversed Outline](#Imversed-Outline)
-3. [Blockchain for Users](#Blockchain for Users)
-4. [NFT Tokens as First-class Citizens](#NFT Tokens as First-class Citizens)
+3. [Blockchain for Users](#Blockchain-for-Users)
+4. [NFT Tokens as First-class Citizens](#NFT-Tokens-as-First-class-Citizens)
     1. NFT Denominations
     2. NFT Oracles
-5. [On-Chain Tokenomic](#On-Chain Tokenomic)
+5. [On-Chain Tokenomic](#On-Chain-Tokenomic)
     1. Types of tokens
         1. IMV coins
         2. Liquidity tokens
@@ -24,8 +24,8 @@
     5. ABCI
     6. Limitations
     7. Penalties
-7. [Transaction fees](#Transaction fees)
-8. [Governance Specification](#Governance Specification)
+7. [Transaction fees](#Transaction-fees)
+8. [Governance Specification](#Governance-Specification)
 9. Appendix 1 - Roadmop
 10. Appendix 2 - Tendermint details
     1. Fork Accountability
