@@ -38,9 +38,9 @@
 ## Introduction
 
 Imversed is a blockchain surrounded by a ecosystem of projects which are enables the simple creation, trading, and
-transfer of tokens and non-fungible tokens (NFTs [[1]](https://ethereum.org/en/nft)) without the need for coding or engineering. Imversed is a
-community-driven SaaS solution that empowers businesses, influencers, and communities to use blockchain technology.
-Among the most important characteristics are the following:
+transfer of tokens and non-fungible tokens (NFTs [[1]](https://ethereum.org/en/nft)) without the need for coding or
+engineering. Imversed is a community-driven SaaS solution that empowers businesses, influencers, and communities to use
+blockchain technology. Among the most important characteristics are the following:
 
 * Stable and secured implementation of Proof Of Stake (
   POS [[2]](https://www.investopedia.com/terms/p/proof-stake-pos.asp)) consensus
@@ -77,17 +77,18 @@ few open source services, such as NFT e-commerce and transaction explorer. Imver
 community-driven decentralized network. The zero layer is a layer of real-world servers managed by the IMV coin
 community. Every server runs the exact version of an open source application, ensuring transparency and trust among
 community members. Full nodes could be promoted to validators, allowing them to add new blocks to the blockchain (
-details could be found in [Tendermint](#Tendermint) section of this whitepaper). Because zero layer logic guarantees rules and
-principles, any layers based on it are decentralized and community driven. Decisions to change zero layer logic could
-only come from IMV token holders and should go through a democratic voting process (details could be found in [Governance](#Governance)
-section of this whitepaper). Imversed makes it simple and secure for anyone to create a crypto token. Every token built
-on top of the Imversed network is decentralized and backed by the Imversed community. It ensures the independence and
-dependability of Imvesred-based tokens in conjunction with the democratic governance process. This token could be used
-in all Imversed dapps, mint NFT tokens, and be exchanged for other Imversed tokens or IMV coin (details could be found
-in [On-Chain tokenomic](#On-Chain tokenomic) section of this whitepaper). Not only can the complexity of development and infrastructure stymie
-the implementation of great ideas. Some blockchain networks choose to tie transaction fees to the value of a coin. High
-transaction fees and slow transaction completion may be a problem. Imversed addresses these challenges by introducing a
-governance-based mechanism for defining fees (details can be found in the [Transaction fees](#Transaction fees) section of this whitepaper)
+details could be found in [Tendermint](#Tendermint) section of this whitepaper). Because zero layer logic guarantees
+rules and principles, any layers based on it are decentralized and community driven. Decisions to change zero layer
+logic could only come from IMV token holders and should go through a democratic voting process. Imversed makes it simple
+and secure for anyone to create a crypto token. Every token built on top of the Imversed network is decentralized and
+backed by the Imversed community. It ensures the independence and dependability of Imvesred-based tokens in conjunction
+with the democratic governance process. This token could be used in all Imversed dapps, mint NFT tokens, and be
+exchanged for other Imversed tokens or IMV coin (details could be found in [On-Chain tokenomic](#On-Chain tokenomic)
+section of this whitepaper). Not only can the complexity of development and infrastructure stymie the implementation of
+great ideas. Some blockchain networks choose to tie transaction fees to the value of a coin. High transaction fees and
+slow transaction completion may be a problem. Imversed addresses these challenges by introducing a governance-based
+mechanism for defining fees (details can be found in the [Transaction fees](#Transaction fees) section of this
+whitepaper)
 and fast transaction finality based on the implementation of the BFT consensus algorithm.
 
 ## Blockchain for Users
