@@ -79,17 +79,16 @@ community. Every server runs the exact version of an open source application, en
 community members. Full nodes could be promoted to validators, allowing them to add new blocks to the blockchain (
 details could be found in [Tendermint](#Tendermint) section of this whitepaper). Because zero layer logic guarantees rules and
 principles, any layers based on it are decentralized and community driven. Decisions to change zero layer logic could
-only come from IMV token holders and should go through a democratic voting process (details could be found in Governance
+only come from IMV token holders and should go through a democratic voting process (details could be found in [Governance](#Governance)
 section of this whitepaper). Imversed makes it simple and secure for anyone to create a crypto token. Every token built
 on top of the Imversed network is decentralized and backed by the Imversed community. It ensures the independence and
 dependability of Imvesred-based tokens in conjunction with the democratic governance process. This token could be used
 in all Imversed dapps, mint NFT tokens, and be exchanged for other Imversed tokens or IMV coin (details could be found
-in On-Chain tokenomic section of this whitepaper). Not only can the complexity of development and infrastructure stymie
+in [On-Chain tokenomic](#On-Chain tokenomic) section of this whitepaper). Not only can the complexity of development and infrastructure stymie
 the implementation of great ideas. Some blockchain networks choose to tie transaction fees to the value of a coin. High
 transaction fees and slow transaction completion may be a problem. Imversed addresses these challenges by introducing a
-governance-based mechanism for defining fees (details can be found in the Transaction fees section of this whitepaper)
-and fast transaction finality based on the implementation of the BFT consensus algorithm (details could be found in
-Tendermint section of this whitepaper).
+governance-based mechanism for defining fees (details can be found in the [Transaction fees](#Transaction fees) section of this whitepaper)
+and fast transaction finality based on the implementation of the BFT consensus algorithm.
 
 ## Blockchain for Users
 
@@ -103,7 +102,7 @@ token after answering a few simple questions. Depending on the requirements, the
 functions such as governance, NFT, or liquidity (details could be found in Types of tokens section of this whitepaper).
 Imversed ecosystem projects' strong validation and simple UX reduce human errors in critical steps such as token
 creation. In the Imversed transaction explorer, all operations on newly created tokens are visible. Imversed wallet
-natively supports newly tokens as well as it support zero level IMV coin.
+natively supports newly tokens as well as it supports zero level IMV coin.
 
 ## NFT Tokens as First-class Citizens
 
