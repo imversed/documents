@@ -2,13 +2,13 @@
 
 ## Index
 
-1. Introduction
-2. Imversed Outline
-3. Blockchain for Users
-4. NFT Tokens as First-class Citizens
+1. [Introduction](#Introduction)
+2. [Imversed Outline](#Imversed Outline)
+3. [Blockchain for Users](#Blockchain for Users)
+4. [NFT Tokens as First-class Citizens](#NFT Tokens as First-class Citizens)
     1. NFT Denominations
     2. NFT Oracles
-5. On-Chain Tokenomic
+5. [On-Chain Tokenomic](#On-Chain Tokenomic)
     1. Types of tokens
         1. IMV coins
         2. Liquidity tokens
@@ -16,7 +16,7 @@
         4. Governance tokens
     2. Liquidity pools
     3. On-chain layering
-6. Tendermint
+6. [Tendermint](#Tendermint)
     1. Validators
     2. Consensus
     3. Light clients
@@ -24,8 +24,8 @@
     5. ABCI
     6. Limitations
     7. Penalties
-7. Transaction fees
-8. Governance Specification
+7. [Transaction fees](#Transaction fees)
+8. [Governance Specification](#Governance Specification)
 9. Appendix 1 - Roadmop
 10. Appendix 2 - Tendermint details
     1. Fork Accountability
@@ -79,11 +79,13 @@ community. Every server runs the exact version of an open source application, en
 community members. Full nodes could be promoted to validators, allowing them to add new blocks to the blockchain (
 details could be found in [Tendermint](#Tendermint) section of this whitepaper). Because zero layer logic guarantees
 rules and principles, any layers based on it are decentralized and community driven. Decisions to change zero layer
-logic could only come from IMV token holders and should go through a democratic voting process. Imversed makes it simple
-and secure for anyone to create a crypto token. Every token built on top of the Imversed network is decentralized and
-backed by the Imversed community. It ensures the independence and dependability of Imvesred-based tokens in conjunction
-with the democratic governance process. This token could be used in all Imversed dapps, mint NFT tokens, and be
-exchanged for other Imversed tokens or IMV coin (details could be found in [On-Chain tokenomic](#On-Chain tokenomic)
+logic could only come from IMV token holders and should go through a democratic voting process (
+details could be found in [Governance Specification](#Governance Specification) section of this whitepaper). Imversed
+makes it simple and secure for anyone to create a crypto token. Every token built on top of the Imversed network is
+decentralized and backed by the Imversed community. It ensures the independence and dependability of Imvesred-based
+tokens in conjunction with the democratic governance process. This token could be used in all Imversed dapps, mint NFT
+tokens, and be exchanged for other Imversed tokens or IMV coin (details could be found
+in [On-Chain tokenomic](#On-Chain tokenomic)
 section of this whitepaper). Not only can the complexity of development and infrastructure stymie the implementation of
 great ideas. Some blockchain networks choose to tie transaction fees to the value of a coin. High transaction fees and
 slow transaction completion may be a problem. Imversed addresses these challenges by introducing a governance-based
@@ -293,11 +295,47 @@ due to a ≥⅓ coalition of voting power going offline, or in situations where 
 evidence of malicious behavior from entering the blockchain, the hub must recover with a hard-fork reorg-proposal. (
 Details in "Forks and Censorship Attacks").
 
+## Transaction Fees
+
+* Transaction fees will be regulated by the community based on decisions made in the process of Governance.
+* Transaction fees should be paid in IMVs until level 1 or level 2 tokens are added to the “allowed” list of tickets on
+  validators.
+* At the first stage, transaction fees will be set by operators.
+
+## Governance Specification
+
+A constitution and a governance framework should regulate distributed public ledgers. The Bitcoin Foundation and mining
+work together to improve Bitcoin. This, however, is a lengthy procedure. Due to the absence of a prior social contract
+or framework for making such decisions, Ethereum hard-forked into ETH and ETC following the DAO hack.
+
+Validators and Imversed-delegated members can vote on proposals to adjust system defaults (such as the block gas limit),
+coordinate updates, and rewrite Imversed’s human-readable constitution. The constitution promotes stakeholder
+collaboration on theft and bugs (such as the DAO incident), resulting in a swifter and cleaner resolution.
+
+Imversed is a decentralized organization that requires a well-defined governance structure in order to organize multiple
+blockchain adjustments such as system variables, software upgrades, and constitutional revisions. Each proposal must be
+voted on by all validators. If you do not swiftly vote on a proposal, then the validator will be deactivated for a
+period referred to as the “AbsenteeismPenaltyPeriod” (DEFAULT 1 week). Delegates automatically inherit the validator’s
+vote. Manual override of this vote is permitted and unbonded IMVs do not vote. Each proposal requires the deposit of
+“MinimumProposalDeposit” tokens, which can be any combination of tokens, including IMVs. The deposit for each plan is up
+to the voters to accept or reject. If more than half of voters accept the deposit (for instance, because the proposal
+was spam), then it is added to the reserve pool minus any burned IMVs. Voters may select one of the following options
+for each proposal:
+
+* Yea
+* Yea with Force
+* Nay
+* Nay with Force
+* Abstain A simple majority of Yea or Yea with Force votes is required to pass (or fail) a proposal, but 1/3 or more of
+  the vote may veto the majority decision by voting “with force.” When a strict majority decision is vetoed, all parties
+  pay “VetoPenaltyFeeBlocks” (DEFAULT 1 day’s worth of blocks) in fees (excluding taxes, which remain unaffected), and
+  the party that rejected the majority decision pays “VetoPenaltyIMVs” (DEFAULT 0.1 percent) of its IMVs.
+
 ## Appendix 1 - Roadmap
 
 ￼![Roadmap](assets/images/roadmap.png?raw=true "Roadmap")
 
-## Appendix 2 - Tendermint details
+# Appendix 2 - Tendermint details
 
 ### Fork Accountability
 
@@ -415,7 +453,7 @@ developers, miners, and other organizations established a social consensus as to
 participants to heal the network. Furthermore, since validators of a Tendermint blockchain may be expected to be
 identifiable, commitment of an invalid state may even be punishable by law or some external jurisprudence, if desired.
 
-## Appendix 3 - Links
+# Appendix 3 - Links
 
 * 1 NFT: https://ethereum.org/en/nft
 * 2 POS: https://www.investopedia.com/terms/p/proof-stake-pos.asp
