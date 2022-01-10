@@ -27,13 +27,13 @@
 7. [Transaction fees](#Transaction-fees)
 8. [Governance Specification](#Governance-Specification)
 9. [Appendix 1 Roadmap](#Appendix-1-Roadmap)
-10. [Appendix 2 Tendermint details](Appendix-2-Tendermint-details)
+10. [Appendix 2 Tendermint details](#Appendix-2-Tendermint-details)
     1. Fork Accountability
     2. Tendermint Consensus details
     3. Tendermint Light Clients details
     4. Preventing Long Range Attacks
     5. Overcoming Forks and Censorship Attacks
-11. [Appendix 3 Links](Appendix-3-Links)
+11. [Appendix 3 Links](#Appendix-3-Links)
 
 ## Introduction
 
