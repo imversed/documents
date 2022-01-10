@@ -26,14 +26,14 @@
     7. Penalties
 7. [Transaction fees](#Transaction-fees)
 8. [Governance Specification](#Governance-Specification)
-9. [Appendix 1 Roadmop](#Appendix-1-Roadmop)
-10. [Appendix 2 Tendermint details](Appendix-2-Tendermint-details)
+9. [Appendix 1: Roadmap](#Appendix-1:-Roadmap)
+10. [Appendix 2: Tendermint details](Appendix-2:-Tendermint-details)
     1. Fork Accountability
     2. Tendermint Consensus details
     3. Tendermint Light Clients details
     4. Preventing Long Range Attacks
     5. Overcoming Forks and Censorship Attacks
-11. [Appendix 3 Links](Appendix-3-Links)
+11. [Appendix 3: Links](Appendix-3:-Links)
 
 ## Introduction
 
@@ -331,11 +331,11 @@ for each proposal:
   pay “VetoPenaltyFeeBlocks” (DEFAULT 1 day’s worth of blocks) in fees (excluding taxes, which remain unaffected), and
   the party that rejected the majority decision pays “VetoPenaltyIMVs” (DEFAULT 0.1 percent) of its IMVs.
 
-## Appendix 1 - Roadmap
+## Appendix 1: Roadmap
 
 ￼![Roadmap](assets/images/roadmap.png?raw=true "Roadmap")
 
-# Appendix 2 - Tendermint details
+# Appendix 2: Tendermint details
 
 ### Fork Accountability
 
@@ -453,7 +453,7 @@ developers, miners, and other organizations established a social consensus as to
 participants to heal the network. Furthermore, since validators of a Tendermint blockchain may be expected to be
 identifiable, commitment of an invalid state may even be punishable by law or some external jurisprudence, if desired.
 
-# Appendix 3 - Links
+# Appendix 3: Links
 
 * 1 NFT: https://ethereum.org/en/nft
 * 2 POS: https://www.investopedia.com/terms/p/proof-stake-pos.asp
