@@ -3,7 +3,7 @@
 ## Index
 
 1. [Introduction](#Introduction)
-2. [Verses](#Verses)
+2. [Verse](#Verse)
     1. Conception of verses
     2. Demand
     3. Use cases
@@ -14,7 +14,7 @@
         3. NFT Denomination
         4. Integrations
         6. Governance
-4. [NFT Tokens as First-class Citizens](#NFT-Tokens-as-First-class-Citizens)
+4. [NFT as First-class Citizens](#NFT-as-First-class-Citizens)
     1. NFT Denominations
     2. NFT Oracles
 5. [On-Chain Tokenomic](#On-Chain-Tokenomic)
