@@ -101,7 +101,7 @@ supply:
 
 _Request_:
 
-```imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http:// qs.imversed.com:26657```
+```imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http://qs.imversed.com:26657```
 
 _Response_:
 
@@ -117,7 +117,7 @@ balances:
 In general a command to send funds from one account to another will looks like:
 
 ```
-imversed tx bank send [from] [to] [amountdenom] --from [key-name] --node http:// qs.imversed.com:26657
+imversed tx bank send [from] [to] [amountdenom] --from [key-name] --node http://qs.imversed.com:26657
 ```
 
 Please note that every transaction requires `fees` to be paid through `--fees` parameter. Simple transactions like funds
@@ -134,7 +134,7 @@ Because all transactions are async, the response from this command simply inform
 returns the transaction hash. Hash is a unique identifier that aids in the identification of specific transactions. To
 see the current status of a transaction, issue a 'q tx' request with the transaction hash as a parameter.
 
-```imversed q tx [transaction_hash] --node http:// qs.imversed.com:26657```
+```imversed q tx [transaction_hash] --node http://qs.imversed.com:26657```
 
 ## NFT
 
@@ -148,7 +148,7 @@ _Request_:
 ```
 imversed tx nft issue bos --name "Brotherhood of steel" --mint-restricted=false \ 
     --update-restricted=false --schema "https://s.imversed.com/nft/schemas/default.json" \ 
-    --fees 300 nimv --from "general-barnaky" --node http:// qs.imversed.com:26657
+    --fees 300 nimv --from "general-barnaky" --node http://qs.imversed.com:26657
 ```
 
 _Response_:
@@ -165,7 +165,7 @@ transaction hash provided:
 _Request_:
 
 ```
-imversed q tx C09133B78505C8F7C8A366B8FF9332F9C2FFDB591A1D333FDD4B3CDDB63B6432 --node http://qs.imversed.com :26657
+imversed q tx C09133B78505C8F7C8A366B8FF9332F9C2FFDB591A1D333FDD4B3CDDB63B6432 --node http://qs.imversed.com:26657
 ```
 
 _Response_:
@@ -212,7 +212,7 @@ Request a NFT data in Imversed could be done by this command:
 _Request_:
 
 ```
-imversed q nft token bos alpha --node http:// qs.imversed.com:26657
+imversed q nft token bos alpha --node http://qs.imversed.com:26657
 ```
 
 _Response_:
@@ -287,7 +287,7 @@ Minted tokens will be added to the issuer's balance and can be checked via the b
 _Request_:
 
 ```
-imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http:// qs.imversed.com:26657
+imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http://qs.imversed.com:26657
 ```
 
 _Response_:
