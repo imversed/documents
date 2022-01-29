@@ -18,9 +18,9 @@
     1. NFT Denominations
     2. NFT Oracles
 5. [On-Chain Tokenomic](#On-Chain-Tokenomic)
-    2. IMV coins
-    3. IMV coins initial distribution
-    4. Liquidity pools
+   1. IMV coins
+   2. IMV coins initial distribution
+   3. Liquidity pools
 6. [Tendermint](#Tendermint)
     1. Validators
     2. Consensus
