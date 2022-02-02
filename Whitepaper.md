@@ -130,12 +130,11 @@ NFT is typically delivered in the form of a series or group. There's something i
 ### NFT Oracles
 
 ETH [[4]](https://eth.wiki) is, probably, the most popular network for NFT and, in terms of copyright and security, it resembles the Wild West. The most widely used network for NFT is ETH, which appears to be a lawless wasteland in terms of copyright and ownership. Anyone has the ability to reissue and sell anything. Users can create an ERC-721-compliant contract and mint any NFT using it. Imversed defines denomination as a type of NFT user or corporation that is capable of producing and minting NFTs. The denomination is a set of metadata shared by all NFT issues in this denomination.
-There is a holder of the inverted denomination. Although the creator of the denomination maintains ownership, it can be transferred to another location. The denomination may include the URL to the Oracle database. This URL should implement a specific HTTP contract that allows an Imversed network address to determine whether or not they have authorization to the URL of the NFT they wish to mint.
+There is a holder of the inverted denomination. Although the creator of the denomination maintains ownership, it can be transferred to another location. The denomination may include an optional URL to the Oracle database. This URL should implement a specific HTTP contract that allows an Imversed network address to determine whether or not they have authorization to the URL of the NFT they wish to mint.
 
 ## On-Chain Tokenomic
 
 Tokens are just bytes in blockchain transactions if no value is attached to them. Imversed allows on-chain tokens to be traded with one another. Tokens could be exchanged directly or indirectly thru the IMV coin (double conversion). The value of each token is determined by the amount of demand and supply within a given token pair. The amount of liquidity locked up in the token pair's liquidity pool defines the exchange rate within the token pair. Non-financial tokens can act as NFTs or allow users to participate in non-financial distribution and public voting.
-
 
 ### IMV coins
 
@@ -149,7 +148,6 @@ TBD
 ### Liquidity pools
 
 A Liquidity Pool is a self-balancing weighted portfolio and price sensor that functions as an automated market maker [[9]](https://balancer.fi/whitepaper.pdf). The liquidity pool system calculates the exchange rate prior to the exchange, taking into account several factors such as the number of tokens requested to be exchanged, the number of tokens locked in the liquidity pool, the overall amount of each token participating in current exchanges, and other important factors. The algorithm may change, but it will always be a part of the blockchain code, and any changes must be democratically approved via voting. Tokens with no monetary value are also permitted in the Imversed ecosystem. Initially, the token's creator could provide liquidity for the pool, or other users could stack their tokens in the pool to profit from exchange fees.
-
 
 ## Imversed basement
 
