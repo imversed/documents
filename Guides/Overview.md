@@ -10,10 +10,10 @@ In order to use Imversed the user needs a binary client and know the address of 
 List of binaries for different architecture and OS:
 
 ```
-https://static.fdvr.co/apps/imversed/imversed_windows_amd64.tar.gz
-https://static.fdvr.co/apps/imversed/imversed_linux_amd64.tar.gz
-https://static.fdvr.co/apps/imversed/imversed_darwin_arm64.tar.gz
-https://static.fdvr.co/apps/imversed/imversed_darwin_amd64.tar.gz
+https://s.imversed.com/imversed_darwin_amd64.tar
+https://s.imversed.com/imversed_darwin_arm64.tar
+https://s.imversed.com/imversed_linux_amd64.tar
+https://s.imversed.com/imversed_windows_amd64.tar
 ```
 
 After downloaded app requires no setup and could be used from any directory.
