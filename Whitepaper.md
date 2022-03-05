@@ -1,8 +1,10 @@
-# Imversed whitepaper
+# IMVERSED WHITEPAPER
+
+### Make your own decentralized blockchain with no code and no server costs.
 
 ## Table of contents
 
-1. [Introduction](#Introduction)
+1. [Introducing Imversed](#Introducing Imversed)
 2. [Verses](#Verses)
     1. The Concept of Verse
     2. Demand
@@ -34,11 +36,44 @@
 9. [Roadmap](#Roadmap)
 10. [Links](#Links)
 
-## Introduction
+## Compliance
 
-Great ideas come from brilliant minds. Some of these concepts are only rendered possible with decentralized blockchain technology. However, complexity of software development and intricacy of running a community-based infrastructure can become  roadblocks to success for many prominent ideas. The Imversed network aims to eliminate barriers between entrepreneurs, communities, influencers, and blockchain technology. Imversed achieves this goal through leveraging a Proof-of-Stake blockchain engine with BFT consensus, allowing blockchain to perform operations quickly and securely. Imversed is a community-driven SaaS solution that empowers businesses, influencers, and communities to use blockchain technology. Among its most important characteristics are the following:
+The following whitepaper is intended to be a technical overview. It is not intended to be comprehensive nor to be the final design. Noncritical aspects are not covered. This paper consists of information given for discussion purposes only and does not represent investment advice of any kind. Further, it does not constitute an offer to sell shares or securities, nor does it constitute a solicitation to buy such shares or securities. None of the information found within is intended to influence any investment decision nor should it be the basis of an investment decision of any kind. Investment advice for investment in any security, or any tax or legal advice should only be given by an investment advisor, and Imversed is not an investment advisor. Imversed encourages readers to seek appropriate and independent professional advice to inform themselves of the legal requirements and tax consequences of any investments they make, both within Imversed and within the blockchain industry as a whole. Investments should only be done with the help of an independent financial advisor within context of the countries of their citizenship or residence, and their place of business with respect to the acquisition, holding or trade in Imversed (IMV) or any other coins or tokens. Please note that this Whitepaper does not constitute an offer to sell, or the solicitation of an offer to buy, for any person for whom it may be unlawful to participate in a token sale. Those for whom it is unlawful to participate should not participate. Consult with your own lawyer or accountant to determine whether it is lawful for you to participate in this coin sale. This Whitepaper should in no way be construed as being intended to create a contract for investment. This Whitepaper (version 1.0) may be revised, with the newest edition always appearing on our website. For each revision cycle, we will provide notes on what has changed and the justification for the change. Updated versions of the Whitepaper (as indicated by consecutive edition numbers) may contain information which may override, clarify, or contradict previous editions, in which case the latest version should be considered the most accurate and up to date. Because of this, versions which are found outside of the Imversed website may contain out-of-date or inaccurate information. The most up-to-date version of the white paper can be located online at imversed.com
 
-* Introduction of the concept of verses - crypto sub-spaces created by users
+## Disclaimer
+
+The attached white paper is meant to describe Imversed’s current anticipated plans for developing its business and (IMV) coins. Nothing in this document should be treated or read as a guarantee or promise of how Imversed’s business will develop or of the utility or value of IMV; the document outlines our current plans, which could change at our discretion, and the success of which will depend on many factors outside our control, including market-based factors and factors within the cryptocurrency industries, among others. Any statements about future events are based solely on our analysis of the issues described in this document, and our analysis may prove to be incorrect. Purchasing IMV is subject to many potential risks, some of which are described in this paper, and some of which are provided in the FAQ on imerversed.com. These documents, along with additional information about our business and IMV, are available on our website at imversed.com. Purchasers of IMV could lose all or some of the value of the funds used to purchase IMV
+
+## Preface
+
+Web 2.0 gathered some of the most brilliant minds in the tech industry as they joined forces to develop the internet. Businesses and individuals quickly jumped on to the internet bandwagon and were able to tap into a new level of Business opportunities and options never seen before. While limited to tech professionals in the early days of the internet, building a website or online ecommerce store quickly became a simple click and build process.  
+
+As the world migrates to Web 3.0 technology, systems need to be established to help businesses and individuals migrate along with it. In Blockchain, the complexity of software development and intricacy of running a community-based infrastructure can become a serious roadblock to success.
+
+There are many parallels that can be drawn between the internet and blockchain. The internet has allowed the democratization of communication, social networks, financial services, writing, video publishing, and more.
+Blockchain technology will have similar effects. It will allow for the democratization and decentralization of money, platforms, verification on the blockchain, and much more.
+
+The current market cap of the global crypto market sits at 1.83 trillion USD. With the blockchain market still in infancy, and the majority of businesses not using or even understanding Web3.0, there is a huge potential for growth in a system that can help onboard new businesses to blockchain. 
+
+[Img]
+
+According to the technology adoption curve above, where blockchain rests today, is somewhere around where the internet was at in 1998, when users of Aol were abundant and yahoo rang supreme. Things change quickly in technology in a short period of time. It was not so long ago that Internet servers were housed in physical bare-metal cases overseen by teams of specialists. Next came data centers with unimodal equipment that could be rented. Later virtualization became a new form, and the architecture of today’s information systems is no longer tied to physical servers.
+
+Blockchain is going through the same phases, from enthusiasts mining Bitcoin on their physical computers to ASIC mining farms near power sources. Blockchain is evolving rapidly and is now moving from Proof-of-Work to Proof-of-Stake which makes developing a thriving community and ecosystem easier than it was before. Those who witnessed the progression of the Internet, understand that mass onboarding of businesses is coming next. Still, no blockchain has managed to develop a system that seamlessly integrates traditional businesses into blockchain and crypto. If a company wants to launch on Web 3.0 they would likely need a team of blockchain experts to assist them at a significant cost. Blockchain needs a faster and smoother onboarding system so everyday businesses can get on Web 3.0 with limited effort, and continue on building their brand.
+
+
+## Introducing Imversed
+
+The Imversed network plans to eliminate the barriers to blockchain technology for entrepreneurs, communities, and influencers. As the demand for blockchain and crypto based products and services grows, more businesses need simplified access to incorporate blockchain technology into their plan. Imversed is the bridge between businesses, influencers, and the community allowing users to onboard their existing business into blockchain seamlessly. Users can bring their brand and idea into crypto without having engineers, servers, or blockchain professionals on their staff. With Imversed, users can place blockchain under their brand, to highlight the power of it, rather than create a separate and distinct department.
+
+Imversed provides each brand with what they call a Verse. A Verse provides a stage for brands to create a crypto integration like an NFT, a branded token, or governance. Brands don’t need to take any action to make it decentralized or distributed, because Imversed codes the Verse. Imversed can create Verses tokens for any brand built on it and will track the record of coins and tokens within the system.
+
+Imversed can be thought of as the ground level or home base of the many Verses that will be built on top of it. Smart Contracts are not used on the Imversed chain, but rather the technology is based on modules. The user doesn’t need a custom smart contract but still has rich functionality that can connect with Web 3.0 products.
+Because Imversed is a Proof-of-Stake (PoS) blockchain, it has the ability to give voting power to those that own the Imversed Coin (IMV). The more IMV, the more power and influence the user has in the community. The core team cannot update the blockchain without the approval of IMV coin holders. The power is thus distributed and decentralized.
+
+To create this simplified brand onboarding process, Imversed leverages a PoS blockchain engine with Byzantine Fault Tolerant (BFT) consensus, allowing blockchain to perform operations quickly and securely, even when some of the nodes fail to respond. Imversed is a community-driven Software-as-a-Service (SaaS) solution that makes blockchain technology accessible to the masses.
+
+* Verses, or, crypto sub-spaces created by users
 * Stable and secured implementation of Proof-of-Stake (POS [[2]](https://www.investopedia.com/terms/p/proof-stake-pos.asp)) consensus
 * All verse tokens are interchangeable
 * Possibility to use Oracles to establish ownership and copyright for NFT tokens
@@ -46,26 +81,30 @@ Great ideas come from brilliant minds. Some of these concepts are only rendered 
 * Multiple levels of verses, and the top-level verses can benefit from the lower-level ones
 * Infrastructure is propelled forward by a dependable engine (Imversed chain)
 
-These extensive features are built on a solid and secure foundation. Imversed is a blockchain application built on top of the COSMOS library that, once combined with Tendermint Core [[3]](https://github.com/tendermint/tendermint/wiki), provides a high-performance, consistent-in-use, and secure PBFT-like consensus engine with strict fork-accountability guarantees over malicious actors' behavior.
+Imversed is a blockchain application built on top of the COSMOS library that, once combined with Tendermint Core [[3]](https://github.com/tendermint/tendermint/wiki), provides a high-performance, consistent-in-use, and secure PBFT-like consensus engine with strict fork-accountability guarantees over malicious actors' behavior.
 
 More information on PBFT-like consensus engines can be found in [[6]](http://pmg.csail.mit.edu/papers/osdi99.pdf). The BFT consensus algorithm from Tendermint Core is well-suited for scaling public Proof-of-Stake blockchains.
 
-## Verses
+## Verses In Depth
 
 Imversed was designed with ease of use in mind. More non-technical people should be able to enter the blockchain world and begin to thrive and grow. These individuals will contribute their enthusiasm and ideas to increase the value of the blockchain ecosystem. Unlike other blockchain projects, Imversed allows users to create their own verses through a simple, consistent, and clear API. No-code, strong validation and accessible UX significantly reduces human errors at critical steps.
 
-What verse technology presents to a business is a collection of the most useful elements from the blockchain world. It is, in a way, a blockchain network within the larger Imversed network. Each verse comes with its own branded token. It can be exchanged for tokens from other verses as well as tokens from other networks within Imversed either through the basic IMV token or directly. The token can be used for financial transactions as well as for community management by distributing tokens and holding democratic public votes. Along with the token, you can issue a collection of NFTs and add Oracle information into it, which would allow buyers to verify authenticity and rights for the NFT tokens issued in this collection. Each verse is compatible with Imversed web3 ecosystem including:
+### Verse the Concept
+
+Verse is a blockchain that has its own branding, currency, exchange, NFT minting process, and integrations. At the same time, it does not require a tech team or servers that a typical blockchain project needs. The business concept is placed on blockchain with ease.
+
+### Verse transacting
+
+Imversed is surrounded by its own web3 ecosystem of projects and APIs for developers. In addition, Imversed is compatible with other COSMOS-based projects.
+
+Each business or individual that establishes a Verse, can access the most useful elements from the blockchain world. Each Verse is like a blockchain network within the larger Imversed network with its own branded token. The branded tokens can be exchanged for tokens from other established Verses as well as tokens from other networks within Imversed. These tokens can be exchanged for IMV, the Imversed coin, in order to exchange it with other cryptocurrencies. The token can be used for financial transactions as well as community governance. Along with the token, Verses can issue a collection of NFTs. An oracle, or access to outside information, is added to the NFT collection which allows buyers to verify authenticity and rights. Each verse is compatible with Imversed Web 3.0 ecosystem including:
 
 - NFT e-commerce
 - Multi-token Wallet
 - Transaction explorer
 - NFT certificates center
 - HTTP/Unity/iOS/Android API
-
-and many more.
-
-Verses can form a hierarchical structure, with higher-level verses profiting from worth increase of heir verses through transaction fees or through value increase of heir verse tokens.
-
+- And more
 
 ## The Concept of Verse
 
