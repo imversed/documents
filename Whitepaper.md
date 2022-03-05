@@ -21,7 +21,7 @@ Blockchain technology will have similar effects. It will allow for the democrati
 
 The current market cap of the global crypto market sits at 1.83 trillion USD. With the blockchain market still in infancy, and the majority of businesses not using or even understanding Web3.0, there is a huge potential for growth in a system that can help onboard new businesses to blockchain. 
 
-[Img]
+￼![Chart](assets/images/imversed_chart.png?raw=true "Chart")
 
 According to the technology adoption curve above, where blockchain rests today, is somewhere around where the internet was at in 1998, when users of Aol were abundant and yahoo rang supreme. Things change quickly in technology in a short period of time. It was not so long ago that Internet servers were housed in physical bare-metal cases overseen by teams of specialists. Next came data centers with unimodal equipment that could be rented. Later virtualization became a new form, and the architecture of today’s information systems is no longer tied to physical servers.
 
