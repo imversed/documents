@@ -10,10 +10,8 @@ In order to use Imversed the user needs a binary client and know the address of 
 List of binaries for different architecture and OS:
 
 ```
-https://s.imversed.com/imversed_darwin_amd64.tar.gz
-https://s.imversed.com/imversed_darwin_arm64.tar.gz
-https://s.imversed.com/imversed_linux_amd64.tar.gz
-https://s.imversed.com/imversed_windows_amd64.tar.gz
+https://s.imversed.com/imversed_darwin_amd64.tar
+https://s.imversed.com/imversed_linux_amd64.tar?authuser=1
 ```
 
 After downloaded app requires no setup and could be used from any directory.
@@ -23,11 +21,11 @@ Most of CLI commands has the same structure and contains command, module name, a
 ```imversed command [module] [action] [parameters] --node nodeaddress:port```
 
 In order to run command over test network node address should be added as parameter to every command. Node address of
-test network is: ```http://qs.imversed.com:26657```
+test network is: ```http://qt.imversed.com:26657```
 
 So testnet commands may look like:
 
-```imversed command [module] [action] [parameters] --node http://qs.imversed.com:26657```
+```imversed command [module] [action] [parameters] --node http://qt.imversed.com:26657```
 
 List of commands we review in this tutorial is:
 
@@ -54,7 +52,7 @@ _Response:_
 - name: general-barnaky 
   type: local 
   address: imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv 
-  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A49EqEiCCe0QyPTPee8 3lYQ/bZyuvV98SMYcE9XemdNq"}' 
+  pubkey: '{"@type":"/ethermint.crypto.v1.ethsecp256k1.PubKey","key":"AgUb9c3f5Q4Z5689WzkMO6+sdWQ8UiwBqxNT09o/1Nk7"}' 
   mnemonic: ""
   
   **Important** 
@@ -84,7 +82,7 @@ Command to check overall network balance:
 
 _Request_:
 
-```imversed q bank total --node http://qs.imversed.com:26657```
+```imversed q bank total --node http://qt.imversed.com:26657```
 
 _Response_:
 
@@ -95,20 +93,22 @@ null total: "1"
 supply:
 
 - amount: "204117083327187"
-  denom: nimv How to check balance To check balance of a particular user we need to get the public address of the
-  him/her. imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv
+  denom: aimv 
 ```
+
+  How to check balance To check balance of a particular user we need to get the public address of the
+  him/her. imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv
 
 _Request_:
 
-```imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http://qs.imversed.com:26657```
+```imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http://qt.imversed.com:26657```
 
 _Response_:
 
 ```
 balances: 
   - amount: "100200"   
-    denom: nimv 
+    denom: aimv 
     pagination:   
       next_key: null
       total: "0"
@@ -117,24 +117,24 @@ balances:
 In general a command to send funds from one account to another will looks like:
 
 ```
-imversed tx bank send [from] [to] [amountdenom] --from [key-name] --node http://qs.imversed.com:26657
+imversed tx bank send [from] [to] [amountdenom] --from [key-name] --node http://qt.imversed.com:26657
 ```
 
 Please note that every transaction requires `fees` to be paid through `--fees` parameter. Simple transactions like funds
-transfer may require as little as 300 nano IMV which should be defined as `300nimv`. For example:
+transfer may require as little as 300 nano IMV which should be defined as `300aimv`. For example:
 
 _Request_:
 
 ```
-imversed tx bank send imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv imv1kge5sxr3krwmqyt2f26l723edh70tw48ksnqhp 100200nimv \ 
-    --from general-barnaky --node http://qs.imversed.com:26657
+imversed tx bank send imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv imv1kge5sxr3krwmqyt2f26l723edh70tw48ksnqhp 100200aimv \ 
+    --from general-barnaky --node http://qt.imversed.com:26657
 ```
 
 Because all transactions are async, the response from this command simply informs you that a TX was sent to a node and
 returns the transaction hash. Hash is a unique identifier that aids in the identification of specific transactions. To
 see the current status of a transaction, issue a 'q tx' request with the transaction hash as a parameter.
 
-```imversed q tx [transaction_hash] --node http://qs.imversed.com:26657```
+```imversed q tx [transaction_hash] --node http://qt.imversed.com:26657```
 
 ## NFT
 
@@ -147,8 +147,8 @@ _Request_:
 
 ```
 imversed tx nft issue bos --name "Brotherhood of steel" --mint-restricted=false \ 
-    --update-restricted=false --schema "https://s.imversed.com/nft/schemas/default.json" \ 
-    --fees 300 nimv --from "general-barnaky" --node http://qs.imversed.com:26657
+    --update-restricted=false --schema "https://nft.imversed.com/nft/schemas/schema.json" \ 
+    --fees 300 aimv --from "general-barnaky" --node http://qt.imversed.com:26657
 ```
 
 _Response_:
@@ -165,7 +165,7 @@ transaction hash provided:
 _Request_:
 
 ```
-imversed q tx C09133B78505C8F7C8A366B8FF9332F9C2FFDB591A1D333FDD4B3CDDB63B6432 --node http://qs.imversed.com:26657
+imversed q tx C09133B78505C8F7C8A366B8FF9332F9C2FFDB591A1D333FDD4B3CDDB63B6432 --node http://qt.imversed.com:26657
 ```
 
 _Response_:
@@ -186,7 +186,7 @@ included into a block. Height is a number of the block which includes the transa
 To check the list of denominations exists in the blockchain execute the given command.
 
 ```
-imversed q nft denoms --node http://qs.imversed.com:26657
+imversed q nft denoms --node http://qt.imversed.com:26657
 ```
 
 ### Mint NFT
@@ -204,7 +204,7 @@ _Request_:
 ```
 imversed tx nft mint bos alpha --name "Bunker Alpha" \ 
 --data "{ 'description': 'Bunker Alpha is a location in Fallout Tactics. It is a base of operations for the Brotherhood of Steel in the Midwest, located in the area near the former city of Chicago, Illinois, being formed sometime after the Brotherhood airships crashed there.', 'ImageUrl': 'http://img3.wikia.nocookie.net/__cb20130113155811/fallout/images/6/64/FoT_Bunker_Alpha.png'}" \
---from general-barnaky --fees 300nimv --node http://qs.imversed.com:26657
+--from general-barnaky --fees 300aimv --node http://qt.imversed.com:26657
 ```
 
 Request a NFT data in Imversed could be done by this command:
@@ -212,7 +212,7 @@ Request a NFT data in Imversed could be done by this command:
 _Request_:
 
 ```
-imversed q nft token bos alpha --node http://qs.imversed.com:26657
+imversed q nft token bos alpha --node http://qt.imversed.com:26657
 ```
 
 _Response_:
@@ -232,7 +232,7 @@ To find all the NFTs minted in a particular denomination run this command:
 _Request_:
 
 ``` 
-imversed q nft collection bos --node http://qs.imversed.com:26657
+imversed q nft collection bos --node http://qt.imversed.com:26657
 ```
 
 _Response_:
@@ -244,7 +244,7 @@ collection:
     id: bos
     mint_restricted: false
     name: Brotherhood of steel
-    schema: https://s.imversed.com/nft/schemas/default.json
+    schema: https://nft.imversed.com/nft/schemas/schema.json
     symbol: ""
     update_restricted: false
   nfts:
@@ -268,16 +268,16 @@ tokens. The only requested parameter is the denomination's name.
 _Request_:
 
 ```
-imversed tx currency issue "scrip" --from general-barnaky --fees 300nimv --node http://qs.imversed.com:26657
+imversed tx currency issue "scrip" --from general-barnaky --fees 300aimv --node http://qt.imversed.com:26657
 ```
 
-Next step is to mint tokens themselves. It is heavy operation and requires 3000000nimv paid as fee. Required paramters
+Next step is to mint tokens themselves. It is heavy operation and requires 3000000aimv paid as fee. Required paramters
 are denomination-id and amount of tokens followed by token name:
 
 _Request_:
 
 ```
-imversed tx currency mint 1000000000000000scrip --from general-barnaky --gas auto --fees 3000000nimv --node http://qs.imversed.com:26657
+imversed tx currency mint 1000000000000000scrip --from general-barnaky --gas auto --fees 3000000aimv --node http://qt.imversed.com:26657
 ```
 
 Because Imversed does not support decimal, it is best to issue the desired number of coins multiplied by 1.000.000.
@@ -287,7 +287,7 @@ Minted tokens will be added to the issuer's balance and can be checked via the b
 _Request_:
 
 ```
-imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http://qs.imversed.com:26657
+imversed q bank balances imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv --node http://qt.imversed.com:26657
 ```
 
 _Response_:
@@ -295,7 +295,7 @@ _Response_:
 ```
 balances:
 - amount: "193898300"
-  denom: nimv
+  denom: aimv
 - amount: "1000000000000000"
   denom: scrip
 pagination:
@@ -306,13 +306,13 @@ pagination:
 ### Send custom tokens
 
 Custom tokens could be sent using same mechanism as IMV coin using the Bank module. Command
-overview : `imversed tx bank send [from] [to] 1000000000scrip --node http://qs.imversed.com:26657`
+overview : `imversed tx bank send [from] [to] 1000000000scrip --node http://qt.imversed.com:26657`
 
 _Request_:
 
 ```
 imversed tx bank send imv172ddedlnl94xp8705eg0rrwyy6ce5vjpzf88rv imv1kge5sxr3krwmqyt2f26l723edh70tw48ksnqhp 100200scrip \ 
-    --from general-barnaky --fees 100nimv --gas auto --node http://qs.imversed.com:26657
+    --from general-barnaky --fees 100aimv --gas auto --node http://qt.imversed.com:26657
 ```
 
 ## Conclusion
