@@ -33,9 +33,9 @@
 ./imversed tx bank send \
     imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
-    5000nimv \
+    5000aimv \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --fees 200nimv
+    --chain-id imversed-test-1 --fees 200aimv
 ```
 #### check transaction result
 ```
@@ -57,7 +57,7 @@
 ./imversed tx bank send \
     imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
-    500nimv \
+    500aimv \
     --node https://tx-endpoint-test.imversed.com:443 \
     --chain-id imversed-test-1 --gas auto
 ```
@@ -68,9 +68,9 @@
 ./imversed tx bank send \
     imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
-    500nimv \
+    500aimv \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --gas auto --fees 200nimv
+    --chain-id imversed-test-1 --gas auto --fees 200aimv
 ```
 
 #### check transaction result
@@ -89,7 +89,7 @@
     --from imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     --node https://tx-endpoint-test.imversed.com:443 \
     --chain-id imversed-test-1 --gas auto \
-    --fees 200nimv
+    --fees 200aimv
 ```
 
 #### check transaction result
@@ -111,7 +111,7 @@
     100000000johntoken --from imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     --node https://tx-endpoint-test.imversed.com:443 \
     --chain-id imversed-test-1 \
-    --fees 200nimv
+    --fees 200aimv
 ```
 
 #### check transaction result (tx fails, no gas provided)
@@ -127,7 +127,7 @@
     100000000johntoken --from imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     --node https://tx-endpoint-test.imversed.com:443 \
     --chain-id imversed-test-1 \
-    --fees 2000nimv --gas auto
+    --fees 2000aimv --gas auto
 ```
 
 #### check transaction result (tx fails, no gas provided)
@@ -150,7 +150,7 @@
     100johntoken --from imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
     --node https://tx-endpoint-test.imversed.com:443 \
     --chain-id imversed-test-1 \
-    --fees 2000nimv --gas auto
+    --fees 2000aimv --gas auto
 ```
 
 #### issue denom mary
@@ -159,7 +159,7 @@
     --from imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
     --node https://tx-endpoint-test.imversed.com:443 \
     --chain-id imversed-test-1 --gas auto \
-    --fees 200nimv
+    --fees 200aimv
 ```
 
 #### check currency list
@@ -174,7 +174,7 @@
     2000marytoken --from imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
     --node https://tx-endpoint-test.imversed.com:443 \
     --chain-id imversed-test-1 \
-    --fees 2000nimv --gas auto
+    --fees 2000aimv --gas auto
 ```
 
 #### check transaction result (tx fails, no gas provided)
@@ -198,7 +198,7 @@
     imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
     5000johntoken \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --fees 200nimv
+    --chain-id imversed-test-1 --fees 200aimv
 ```
 #### check mary's balance
 ```
@@ -214,7 +214,7 @@
     --pool-file pool.json \
     --from imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --fees 200nimv
+    --chain-id imversed-test-1 --fees 200aimv
 ```
 
 #### check transaction result (tx fails, no gas provided)
@@ -243,17 +243,17 @@
 ```
 ./imversed q pools estimate-swap-exact-amount-in 1  \
     imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
-    1000nimv --swap-route-denoms johntoken --swap-route-pool-ids 1 \
+    1000aimv --swap-route-denoms johntoken --swap-route-pool-ids 1 \
      --node https://tx-endpoint-test.imversed.com:443
 ```
 
-#### mary swaps johntoken in nimv
+#### mary swaps johntoken in aimv
 ```
-./imversed tx pools swap-exact-amount-in 500nimv 2 \
+./imversed tx pools swap-exact-amount-in 500aimv 2 \
     --swap-route-pool-ids 2 --swap-route-denoms johntoken \
     --from imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --fees 200nimv
+    --chain-id imversed-test-1 --fees 200aimv
 ```
 #### check transaction result
 ```
@@ -278,7 +278,7 @@
     --update-restricted=false \
     --schema=https://metachain-web.fdvr.co/nft/schemas/schema.json \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --fees 200nimv
+    --chain-id imversed-test-1 --fees 200aimv
 ```
 
 #### check nft denoms
@@ -292,7 +292,7 @@
 ./imversed tx nft mint johnnftdenom john_nft_id_1 --uri https://picsum.photos/id/237/700/500 \
     --from imv1xphu0vapz3pklrdl65g8s4ul9mfkff0zrfmv5r \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --fees 200nimv
+    --chain-id imversed-test-1 --fees 200aimv
 ```
     
 #### check nft johnnftdenom nft collection
@@ -306,5 +306,5 @@
 ./imversed tx nft mint johnnftdenom john_nft_id_2 --uri https://picsum.photos/id/200/700/500 \
     --from imv13cct0vjpr89w6ycaw4rjtkvwjgfwpwqp97t95x \
     --node https://tx-endpoint-test.imversed.com:443 \
-    --chain-id imversed-test-1 --fees 200nimv
+    --chain-id imversed-test-1 --fees 200aimv
 ```
