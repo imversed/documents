@@ -11,7 +11,7 @@ List of binaries for different architecture and OS:
 
 ```
 https://s.imversed.com/imversed_darwin_amd64.tar
-https://s.imversed.com/imversed_linux_amd64.tar?authuser=1
+https://s.imversed.com/imversed_linux_amd64.tar
 ```
 
 After downloaded app requires no setup and could be used from any directory.
