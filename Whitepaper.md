@@ -32,45 +32,49 @@ Blockchain is going through the same phases, from enthusiasts mining Bitcoin on 
 
 The Imversed network plans to eliminate the barriers to blockchain technology for entrepreneurs, communities, and influencers. As the demand for blockchain and crypto based products and services grows, more businesses need simplified access to incorporate blockchain technology into their plan. Imversed is the bridge between businesses, influencers, and the community allowing users to onboard their existing business into blockchain seamlessly. Users can bring their brand and idea into crypto without having engineers, servers, or blockchain professionals on their staff. With Imversed, users can place blockchain under their brand, to highlight the power of it, rather than create a separate and distinct department.
 
-Imversed provides each brand with what they call a Verse. A Verse provides a stage for brands to create a crypto integration like an NFT, a branded token, or governance. Brands don’t need to take any action to make it decentralized or distributed, because Imversed codes the Verse. Imversed can create Verses tokens for any brand built on it and will track the record of coins and tokens within the system.
+Imversed provides each brand with what they call a Verse. A Verse provides a stage for brands to create a crypto integration like NFT collections, a branded token, or governance. Brands don’t need to take any action to make it decentralized or distributed, because Imversed codes the Verse. Imversed can create Verses tokens for any brand built on it and will track the record of coins and tokens within the system.
 
-Imversed can be thought of as the ground level or home base of the many Verses that will be built on top of it. Smart Contracts are not used on the Imversed chain, but rather the technology is based on modules. The user doesn’t need a custom smart contract but still has rich functionality that can connect with Web 3.0 products.
-Because Imversed is a Proof-of-Stake (PoS) blockchain, it has the ability to give voting power to those that own the Imversed Coin (IMV). The more IMV, the more power and influence the user has in the community. The core team cannot update the blockchain without the approval of IMV coin holders. The power is thus distributed and decentralized.
+Imversed can be thought of as the ground level or home base of the many Verses that will be built on top of it. Because Imversed is a Proof-of-Stake (PoS) blockchain, it has the ability to give voting power to those that own the Imversed Coin (IMV). The more IMV, the more power and influence the user has in the community. The core team cannot update the blockchain without the approval of IMV coin holders. The power is thus distributed and decentralized.holders. The power is thus distributed and decentralized.
 
 To create this simplified brand onboarding process, Imversed leverages a PoS blockchain engine with Byzantine Fault Tolerant (BFT) consensus, allowing blockchain to perform operations quickly and securely, even when some of the nodes fail to respond. Imversed is a community-driven Software-as-a-Service (SaaS) solution that makes blockchain technology accessible to the masses.
 
 * Verses, or, crypto sub-spaces created by users
 * Stable and secured implementation of Proof-of-Stake (POS [[2]](https://www.investopedia.com/terms/p/proof-stake-pos.asp)) consensus
 * All verse tokens are interchangeable
+* EVM compatibility
 * Possibility to use Oracles to establish ownership and copyright for NFT tokens
 * Integrations with major e-commerce platforms enable NFT sales similar to those of traditional products
 * Multiple levels of verses, and the top-level verses can benefit from the lower-level ones
 * Infrastructure is propelled forward by a dependable engine (Imversed chain)
 
-Imversed is a blockchain application built on top of the COSMOS library that, once combined with Tendermint Core [[3]](https://github.com/tendermint/tendermint/wiki), provides a high-performance, consistent-in-use, and secure PBFT-like consensus engine with strict fork-accountability guarantees over malicious actors' behavior.
+Imversed is a blockchain application built on top of the COSMOS library that, once combined with Tendermint Core [[3]](https://github.com/tendermint/tendermint/wiki), provides a high-performance, consistent-in-use, and secure PBFT-like consensus engine with strict fork-accountability guarantees over malicious actors' behavior. The same time Imversed is fully compatible with EVM interface and support smart contracts. Solidity smart contract could be copied from Ethereum main-net without changes.
 
 More information on PBFT-like consensus engines can be found in [[6]](http://pmg.csail.mit.edu/papers/osdi99.pdf). The BFT consensus algorithm from Tendermint Core is well-suited for scaling public Proof-of-Stake blockchains.
 
 # Verses In Depth
 
-Imversed was designed with ease of use in mind. More non-technical people should be able to enter the blockchain world and begin to thrive and grow. These individuals will contribute their enthusiasm and ideas to increase the value of the blockchain ecosystem. Unlike other blockchain projects, Imversed allows users to create their own verses through a simple, consistent, and clear API. No-code, strong validation and accessible UX significantly reduces human errors at critical steps.
 
 ## Verse the Concept
 
-Verse is a blockchain that has its own branding, currency, exchange, NFT minting process, and integrations. At the same time, it does not require a tech team or servers that a typical blockchain project needs. The business concept is placed on blockchain with ease.
+Verse is a blockchain construct that has its own branding, rules, currency, exchange, NFT collections, smart contracts and governance. At the same time, it does not require a tech team or servers that a typical blockchain project needs. The business concept is placed on blockchain with ease. We can describe Verse as user’s instance on blockchain in SAAS blockchain which is Imversed.
 
 ## Verse transacting
 
-Imversed is surrounded by its own web3 ecosystem of projects and APIs for developers. In addition, Imversed is compatible with other COSMOS-based projects.
+Imversed is surrounded by its own web3 ecosystem of projects and APIs for developers. In addition, Imversed is compatible with COSMOS-based projects and EVM compatible networks.
 
 Each business or individual that establishes a Verse, can access the most useful elements from the blockchain world. Each Verse is like a blockchain network within the larger Imversed network with its own branded token. The branded tokens can be exchanged for tokens from other established Verses as well as tokens from other networks within Imversed. These tokens can be exchanged for IMV, the Imversed coin, in order to exchange it with other cryptocurrencies. The token can be used for financial transactions as well as community governance. Along with the token, Verses can issue a collection of NFTs. An oracle, or access to outside information, is added to the NFT collection which allows buyers to verify authenticity and rights. Each verse is compatible with Imversed Web 3.0 ecosystem including:
 
-- NFT e-commerce
+- No-code dashboard to create tokens and NFT collections
 - Multi-token Wallet
-- Transaction explorer
-- NFT certificates center
+- Transaction explorer for COSMOS
+- Transaction explorer for EVM
+- Verses security system
 - HTTP/Unity/iOS/Android API
 - And more
+
+## EVM Compatibility
+
+Business part of EVM compatibility
 
 ## Verse Use Cases
 
@@ -83,6 +87,12 @@ Imversed uniquely allows brands to test its business strategies without capital 
 - Personal token of a celebrity or an influencer
 
 Some projects may grow beyond the limits of Imversed and make the decision to move to its own platform. For such cases, Imversed will have mechanisms for Verses migration to a self-sufficient, separate blockchain network.
+
+## Oracles
+[new]
+
+## Verse security
+[new]
 
 ## Verses Layering (Hierarchy)
 
@@ -108,19 +118,14 @@ Everyone who holds IMV coin, can vote on any change to the Imversed chain.  The 
 
 As an additional option, some Verses may require governance. This is not anticipated to be the norm but the option is available should a project need it. Imversed provides governance tokens for each Verse that needs it. The governance for the Verses are completely separate and independent from Imversed.  Every member of the organization receives governance tokens which gives access to voting amongst members on any changes to their Verse.
 
-# NFT Integration
+## Hybrid NFT
+[new]
 
-In Imversed, NFT tokens are integrated as part of the blockchain. This makes all tokens uniform, trustworthy, recognizable by all external services, and perfectly traceable. Different types of NFT ownership and royalty programs are available and more features will be added with new versions of Imversed.
+## Bridge to Ethereum compatible networks 
+[new]
 
-## NFT Denominations
-
-NFTs typically come in a series or collection, like the Punks or Kitties. Imversed introduces a simple way to associate NFT. The term denomination means a name or designation, especially one serving to classify a set of things. In Imversed, the Denomination is the metadata attached to a group of NFTs. It is sort of like a blueprint, containing the details of the NFT collection like author, website, name, and more. As a field, each NFT contains the identity of the denomination. The Denomination is owned and can be changed by the owner. New changes do not affect NFTs that have already been issued. Since the denomination is not restricted, anyone can mint with a specific denomination. Denomination contains both strictly typed fields and data fields that can be filled with whatever information the owner desires. NFT tokens issued by an artist are a good example of a denomination. This artist may want to specify their site in the denomination to make themself more recognizable even after the NFT has changed hands several times.
-
-## NFT Oracles
-
-ETH [[4]](https://eth.wiki) is probably the most popular network for NFTs, but in terms of copyright and security it resembles the Wild West. This network seems to be a lawless wasteland when it comes to trademarks and ownership. Anyone may reissue and sell anything. Users can create an ERC-721-compliant contract and mint any NFT. Imversed defines denomination as a type of NFT user or company that is able to produce and mint NFTs.
-
-The Imversed denomination has a holder. Although the creator of the denomination maintains ownership, it can be transferred to another location. A Denomination may contain an URL to the Oracle database. This URL should implement a special HTTP contract that allows an Imversed network address to determine whether or not they have authorization for the URL of the NFT they wish to mint.
+## Imversed lands conception
+[new]
 
 # On-Chain Tokenomics
 
@@ -176,6 +181,9 @@ A major advantage of Tendermint's consensus algorithm is the simplified security
 ### Preventing Attacks
 
 Tendermint guarantees protective measures that prevent certain notable attacks, such as long-range-nothing-at-stake double spends and censorship.
+
+### EVM compatibility module
+[new] technical part
 
 ### ABCI
 
