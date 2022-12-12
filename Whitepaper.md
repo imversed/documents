@@ -27,27 +27,28 @@ According to the technology adoption curve above, where blockchain rests today, 
 
 Blockchain is going through the same phases, from enthusiasts mining Bitcoin on their physical computers to ASIC mining farms near power sources. Blockchain is evolving rapidly and is now moving from Proof-of-Work to Proof-of-Stake which makes developing a thriving community and ecosystem easier than it was before. Those who witnessed the progression of the Internet, understand that mass onboarding of businesses is coming next. Still, no blockchain has managed to develop a system that seamlessly integrates traditional businesses into blockchain and crypto. If a company wants to launch on Web 3.0 they would likely need a team of blockchain experts to assist them at a significant cost. Blockchain needs a faster and smoother onboarding system so everyday businesses can get on Web 3.0 with limited effort, and continue on building their brand.
 
-
 # Introducing Imversed
 
-The Imversed network plans to eliminate the barriers to blockchain technology for entrepreneurs, communities, and influencers. As the demand for blockchain and crypto based products and services grows, more businesses need simplified access to incorporate blockchain technology into their plan. Imversed is the bridge between businesses, influencers, and the community allowing users to onboard their existing business into blockchain seamlessly. Users can bring their brand and idea into crypto without having engineers, servers, or blockchain professionals on their staff. With Imversed, users can place blockchain under their brand, to highlight the power of it, rather than create a separate and distinct department.
+The Imversed network wants to eliminate the barriers to blockchain technology for entrepreneurs, communities, and influencers. As the demand for blockchain and crypto based products and services grows, more businesses need simplified access to incorporate blockchain technology into their work. Imversed is the bridge between businesses, influencers, and the community which allows users to onboard their existing business into blockchain. Users can bring their brand and idea into crypto without having engineers, servers, or blockchain professionals on their staff. With Imversed, users can place blockchain under their brand and highlight its power, rather than create a separate department.
 
-Imversed provides each brand with what they call a Verse. A Verse provides a stage for brands to create a crypto integration like an NFT, a branded token, or governance. Brands don’t need to take any action to make it decentralized or distributed, because Imversed codes the Verse. Imversed can create Verses tokens for any brand built on it and will track the record of coins and tokens within the system.
+Imversed provides each brand with what they call a Verse. A Verse provides a stage to create a crypto integration like an NFT [[1]](https://ethereum.org/en/nft), a branded token, or governance. Brands don’t need to take any action to make it decentralized or distributed, because of Imversed codes the Verse. Imversed can create Verses tokens for any inbuilt brand and track the record of coins and tokens within the system.
 
-Imversed can be thought of as the ground level or home base of the many Verses that will be built on top of it. Smart Contracts are not used on the Imversed chain, but rather the technology is based on modules. The user doesn’t need a custom smart contract but still has rich functionality that can connect with Web 3.0 products.
-Because Imversed is a Proof-of-Stake (PoS) blockchain, it has the ability to give voting power to those that own the Imversed Coin (IMV). The more IMV, the more power and influence the user has in the community. The core team cannot update the blockchain without the approval of IMV coin holders. The power is thus distributed and decentralized.
+Imversed is like the ground level or home basis for many Verses above. Imversed is a scalable, high-throughput Proof-of-Stake blockchain that is fully interoperable with Ethereum.
 
-To create this simplified brand onboarding process, Imversed leverages a PoS blockchain engine with Byzantine Fault Tolerant (BFT) consensus, allowing blockchain to perform operations quickly and securely, even when some of the nodes fail to respond. Imversed is a community-driven Software-as-a-Service (SaaS) solution that makes blockchain technology accessible to the masses.
+It uses the Cosmos SDK [[2]](https://github.com/cosmos/cosmos-sdk/) which runs on top of Tendermint Core [[3]](https://github.com/tendermint/tendermint/wiki) consensus engine. Developers leverage existing Ethereum ecosystem tooling and software in deploying smart contracts which interact with the rest of the Cosmos ecosystem [[4]](https://cosmos.network/ecosystem/apps/) !
+
+Because of Imversed is a Proof-of-Stake (PoS) blockchain, it can give voting power to the owners of the Imversed Coin (IMV). The more IMV user has, the more he or she can influence the community. The core team cannot update the blockchain without the approval of IMV coin holders. This is how the distribution of power works.
+In order to simplify the brand onboarding process, Imversed leverages a PoS blockchain engine with Byzantine Fault Tolerant (BFT) consensus, ​​it allows blockchain to perform quick and secure tasks, even when some of the nodes fail to respond. Imversed is a community-driven Software-as-a-Service (SaaS) solution that makes blockchain technology accessible to everyone.
 
 * Verses, or, crypto sub-spaces created by users
-* Stable and secured implementation of Proof-of-Stake (POS [[2]](https://www.investopedia.com/terms/p/proof-stake-pos.asp)) consensus
-* All verse tokens are interchangeable
+* Stable and secured implementation of Proof-of-Stake (POS [[5]](https://www.investopedia.com/terms/p/proof-stake-pos.asp)) consensus
+* Interchangeable verse tokens
 * Possibility to use Oracles to establish ownership and copyright for NFT tokens
 * Integrations with major e-commerce platforms enable NFT sales similar to those of traditional products
-* Multiple levels of verses, and the top-level verses can benefit from the lower-level ones
-* Infrastructure is propelled forward by a dependable engine (Imversed chain)
+* Multiple levels of verses (the top-level verses can benefit from the lower-level ones)
+* Reliable infrastructure engine (Imversed chain)
 
-Imversed is a blockchain application built on top of the COSMOS library that, once combined with Tendermint Core [[3]](https://github.com/tendermint/tendermint/wiki), provides a high-performance, consistent-in-use, and secure PBFT-like consensus engine with strict fork-accountability guarantees over malicious actors' behavior.
+Imversed is a blockchain application built on top of the COSMOS library that, once combined with Tendermint Core, provides a high-performance, consistent-in-use, and secure PBFT-like consensus engine with strict fork-accountability and guarantees over malicious actors' behavior.
 
 More information on PBFT-like consensus engines can be found in [[6]](http://pmg.csail.mit.edu/papers/osdi99.pdf). The BFT consensus algorithm from Tendermint Core is well-suited for scaling public Proof-of-Stake blockchains.
 
@@ -108,9 +109,11 @@ Everyone who holds IMV coin, can vote on any change to the Imversed chain.  The 
 
 As an additional option, some Verses may require governance. This is not anticipated to be the norm but the option is available should a project need it. Imversed provides governance tokens for each Verse that needs it. The governance for the Verses are completely separate and independent from Imversed.  Every member of the organization receives governance tokens which gives access to voting amongst members on any changes to their Verse.
 
-# NFT Integration
+# EVM compatible
 
-In Imversed, NFT tokens are integrated as part of the blockchain. This makes all tokens uniform, trustworthy, recognizable by all external services, and perfectly traceable. Different types of NFT ownership and royalty programs are available and more features will be added with new versions of Imversed.
+The Imversed blockchain provides Ethereum developers to deploy smart contracts to the Imversed EVM and get the benefits of fast-finality Proof-of-Stake (PoS) chain. Developers will also benefit from highly-reliable clients from testnets that can be used to test and deploy their contracts. 
+
+Imversed also offers built-in interoperability functionalities with other Cosmos and BFT chains by using IBC [[7]](https://ibc.cosmos.network/). Developers can also benefit from using a bridge network to enable interoperability between mainnet Ethereum and Imversed.
 
 ## NFT Denominations
 
@@ -118,7 +121,7 @@ NFTs typically come in a series or collection, like the Punks or Kitties. Imvers
 
 ## NFT Oracles
 
-ETH [[4]](https://eth.wiki) is probably the most popular network for NFTs, but in terms of copyright and security it resembles the Wild West. This network seems to be a lawless wasteland when it comes to trademarks and ownership. Anyone may reissue and sell anything. Users can create an ERC-721-compliant contract and mint any NFT. Imversed defines denomination as a type of NFT user or company that is able to produce and mint NFTs.
+ETH [[8]](https://eth.wiki) is probably the most popular network for NFTs, but in terms of copyright and security it resembles the Wild West. This network seems to be a lawless wasteland when it comes to trademarks and ownership. Anyone may reissue and sell anything. Users can create an ERC-721-compliant contract and mint any NFT. Imversed defines denomination as a type of NFT user or company that is able to produce and mint NFTs.
 
 The Imversed denomination has a holder. Although the creator of the denomination maintains ownership, it can be transferred to another location. A Denomination may contain an URL to the Oracle database. This URL should implement a special HTTP contract that allows an Imversed network address to determine whether or not they have authorization for the URL of the NFT they wish to mint.
 
@@ -164,7 +167,7 @@ In classical Byzantine fault-tolerant (BFT) algorithms, each node has the same w
 
 ### Consensus
 
-Tendermint is a partially synchronous BFT consensus protocol derived from DLS consensus algorithm [[8]](http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf). Tendermint stands out for its simplicity, performance, and fork-accountability. The protocol requires a fixed number of validators, with  each validator identified by its public key. The validators try to come to consensus on one block at a time, where a block is a list of transactions. Voting on a block proceeds in rounds. Each round has a round leader or proposer who proposes a block. The validators then vote incrementally on whether to accept the proposed block or move on to the next round. The proposer for a round is deterministically selected from the list of validators ranked in proportion to their voting power. Tendermint's security is based on the use of optimal Byzantine fault-tolerance through super-majority voting (>⅔) and a locking mechanism. In combination, they ensure that:
+Tendermint is a partially synchronous BFT consensus protocol derived from DLS consensus algorithm [[10]](http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf). Tendermint stands out for its simplicity, performance, and fork-accountability. The protocol requires a fixed number of validators, with  each validator identified by its public key. The validators try to come to consensus on one block at a time, where a block is a list of transactions. Voting on a block proceeds in rounds. Each round has a round leader or proposer who proposes a block. The validators then vote incrementally on whether to accept the proposed block or move on to the next round. The proposer for a round is deterministically selected from the list of validators ranked in proportion to their voting power. Tendermint's security is based on the use of optimal Byzantine fault-tolerance through super-majority voting (>⅔) and a locking mechanism. In combination, they ensure that:
 
 * ≥⅓ voting power must be Byzantine to cause a violation of safety, where more than two values are committed.
 * If any group of validators ever succeeds in violating safety, or even attempts to do so, they can be identified by protocol. This includes both voting on conflicting blocks and transmission of unjustified votes. Despite the strong guarantees it ensures, Tendermint provides exceptional performance. In benchmarks of 64 nodes spread across 7 data centers on 5 continents on commodity cloud instances, Tendermint consensus can process thousands of transactions per second, with commit latencies on the order of one to two seconds. Remarkably, the performance of well over a thousand transactions per second is maintained even under challenging conditions when validators crash or broadcast maliciously crafted votes. See the figure below for details.
@@ -179,7 +182,7 @@ Tendermint guarantees protective measures that prevent certain notable attacks, 
 
 ### ABCI
 
-The Tendermint consensus algorithm is implemented in a program called Tendermint Core. Tendermint Core is an application-agnostic "consensus engine" that can turn any deterministic blackbox application into distributed, replicated blockchain data. Tendermint Core connects to blockchain applications via the Application Blockchain Interface (ABCI) [[7]](https://github.com/tendermint/abci). Thus, ABCI allows for blockchain applications to be programmed in any language, not just the programming language in which the consensus engine is written. Additionally, ABCI allows easy replacement of the consensus layer of any existing blockchain stack. We draw an analogy to the well-known Bitcoin cryptocurrency. Bitcoin is a cryptocurrency blockchain where each node maintains a fully audited Unspent Transaction Output (UTXO) database. If one wanted to create a Bitcoin-like system based on ABCI, Tendermint Core would be responsible for
+The Tendermint consensus algorithm is implemented in a program called Tendermint Core. Tendermint Core is an application-agnostic "consensus engine" that can turn any deterministic blackbox application into distributed, replicated blockchain data. Tendermint Core connects to blockchain applications via the Application Blockchain Interface (ABCI) [[11]](https://github.com/tendermint/abci). Thus, ABCI allows for blockchain applications to be programmed in any language, not just the programming language in which the consensus engine is written. Additionally, ABCI allows easy replacement of the consensus layer of any existing blockchain stack. We draw an analogy to the well-known Bitcoin cryptocurrency. Bitcoin is a cryptocurrency blockchain where each node maintains a fully audited Unspent Transaction Output (UTXO) database. If one wanted to create a Bitcoin-like system based on ABCI, Tendermint Core would be responsible for
 
 * Sharing blocks and transactions between nodes
 * Establishing a canonical/immutable order of transactions (the blockchain)
@@ -226,12 +229,15 @@ A simple majority of "Yea" or "Yea with force" votes is required to approve (or 
 ## Links
 
 * 1 NFT: https://ethereum.org/en/nft
-* 2 POS: https://www.investopedia.com/terms/p/proof-stake-pos.asp
+* 2 Cosmos SDK: https://github.com/cosmos/cosmos-sdk/ 
 * 3 Tendermint: https://github.com/tendermint/tendermint/wiki
-* 4 Ethereum: https://eth.wiki
-* 5 Slasher: https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm
+* 4 Cosmos ecosystem: https://cosmos.network/ecosystem/apps/
+* 5 POS: https://www.investopedia.com/terms/p/proof-stake-pos.asp
 * 6 PBFT: http://pmg.csail.mit.edu/papers/osdi99.pdf
-* 7 ABCI: https://github.com/tendermint/abci
-* 8 DLS: http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf
+* 7 IBС-Go: https://ibc.cosmos.network/
+* 8 Ethereum: https://eth.wiki
 * 9 Balancer: https://balancer.fi/whitepaper.pdf
+* 10 DLS: http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf
+* 11 ABCI: https://github.com/tendermint/abci
+* 
 
